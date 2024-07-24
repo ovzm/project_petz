@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    padding-left: 160px;
+}
+
+.navegation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    position: relative; /* Para posicionamento absoluto do ícone de busca */
+    width: 100%; /* Garante que ocupe todo o espaço disponível */
+}
+
+.input{
+    width: 650px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+}
+
+.input:hover{
+    border-color: #175ea8;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.divIcons{
+    height: 70px;
+    width: auto;
+    display: flex;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.divCadastro{
+    display: flex;
+    padding-right: 120px;
+}
+
+.buttonCadastro{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px; 
+    margin-right: 10px; 
+    color: white;
+    background-color: #175ea8;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: 0.3s ease;
+    border: 1px;
+}
+
+.buttonCadastro:hover {
+    background-color: white;
+    color: #175ea8;
+    border-radius: 5px;
+    border: 1px solid #175ea8;
+}
+
+/*NAV BAR*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left; /* Faz com que os itens da lista fiquem lado a lado */
+}
+
+.navbar li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* Linha inicialmente transparente */
+    transition: border-bottom 0.3s ease;
+}
+
+.navbar li a:hover {
+    border-bottom: 3px solid #175ea8; /* Cor da linha ao passar o mouse */
+}
+
+/*FECHAMENTO NAV BAR*/
+
+.divDesconto{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(228, 228, 228);
+}
+
+.divDesconto img{
+    width: 20px;
+    height: 20px;
+    padding-right: 7px;
+    padding-top: 23px;
+}
+
+.divDesconto a{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.divDesconto h1{
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.divDesconto a b{
+    font-size: 11px;
+    border-bottom: 1px solid black;
+}
+
+/*CARDS SERVICES*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-service-item {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    border: 2px solid #175ea8;
+    border-radius: 10px;
+}
+
+.cards-service-item img{
+    width: 100px;
+    height: 30px;
+}
+
+/*CAROUSEL*/
+ 
+  .gallery-cell {
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: flex;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .gallery-cell img {
+    width: 100%;
+    height: 100%; 
+    border-radius: 15px;
+}
