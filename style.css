@@ -580,6 +580,56 @@ body{
     padding-bottom: 20px;
 }
 
+/* ! MORE */
+.container-more {
+    max-width: 1000px;
+    padding: 20px 0;
+    margin: 1rem auto;
+}
+
+.content-more {
+    padding: 20px;
+}
+
+.content-more h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.content-more p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+#extra-content {
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    max-height: 0;
+}
+
+#extra-content.expanded {
+    max-height: 2000px; /* Ajuste conforme necessário para acomodar o conteúdo */
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-link {
+    color: #008CBA;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toggle-link:hover {
+    color: #005f73;
+}
+
+
 /* ! PROMOTION */ 
 
 .promotion{
@@ -629,6 +679,7 @@ body{
     width: 150px;
     height: 50px;
     background-color: #FDF9F4;
+    cursor: pointer;
 }
 
 .container-promotion button a{
@@ -636,6 +687,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bold;
+ 
 }
 
 .container-promotion h1{
