@@ -40,7 +40,7 @@ body{
     width: 100%; 
 }
 
-.input{
+.search-container .input{
     width: 650px;
     height: 40px;
     padding: 5px;
@@ -50,7 +50,7 @@ body{
     border-color: rgb(190, 190, 190);
 }
 
-.input:hover{
+.search-container .input:hover{
     border-color: #175ea8;
 }
 
@@ -578,6 +578,81 @@ body{
     font-size: 17px;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+/* ! PROMOTION */ 
+
+.promotion{
+    width: 100%;
+    height: 130px;
+    background-color: #FDF9F4;
+    display: flex;
+    align-items: center;
+}
+
+.container-promotion{
+    max-width: 1300px;
+    padding: 20px 0;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.container-promotion div{
+    margin: 1rem;
+}
+
+.text-promotion{
+    width: 400px;
+}
+
+.container-promotion .input-email input{
+    width: 360px;
+    height:35px;
+    border: 1px solid #c1c1c1;
+    border-radius: 7px;
+    padding: 7px 15px
+}
+
+.container-promotion .input-pet input{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #c1c1c1;
+    border-radius: 7px;
+    padding: 7px 15px;
+}
+
+.container-promotion button{
+    border: 2px solid black; 
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    background-color: #FDF9F4;
+}
+
+.container-promotion button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.container-promotion h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container-promotion h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: gray;
+    padding-top: 7px;
+}
+
+.container-promotion h2 a{
+    text-decoration: none;
 }
 
 /* ! MENU | CONTAINER FOOTER */
