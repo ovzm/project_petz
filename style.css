@@ -87,6 +87,11 @@ body{
     padding-right: 120px;
 }
 
+.divCadastro a{
+    text-decoration: none;
+    color: white;
+}
+
 .buttonCadastro{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 15px; 
@@ -97,9 +102,10 @@ body{
     font-size: 13px;
     transition: 0.3s ease;
     border: 1px;
+    cursor: pointer;
 }
 
-.buttonCadastro:hover {
+.buttonCadastro:hover{
     background-color: white;
     color: #175ea8;
     border-radius: 5px;
@@ -604,6 +610,10 @@ body{
     padding-bottom: 10px;
 }
 
+.content-more a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 #extra-content {
     overflow: hidden;
