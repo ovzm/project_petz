@@ -56,6 +56,7 @@
                         <div class="form-sign">
                             <h2>Sexo</h2>
                             <select name="Sexo" id="Sexo">
+                                <option value="" disabled selected>Escolha o sexo</option>
                                 <option value="female">Feminino</option>
                                 <option value="man">Masculino</option>
                             </select>
@@ -109,6 +110,13 @@
             </div>      
         </div>
     </section>
+
+    <!-- ! Estilo para esconder a opção do placeholder da lista de opções -->
+    <style>
+        select option[disabled] {
+          display: none; 
+        }
+      </style>
 
 </body>
 </html>
