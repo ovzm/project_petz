@@ -159,12 +159,12 @@ h2{
 
 .text-sign{
     width: 500px;
-    height: 750px;
+    height: 850px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .text-sign h1{
