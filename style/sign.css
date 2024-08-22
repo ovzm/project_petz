@@ -1,0 +1,189 @@
+body{
+    background-color: #eee;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* ! HEADER */
+
+.header-login{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1rem solid #d5d5d5;
+}
+
+.header-logo{
+    margin-left: 20rem;
+}
+
+.header-logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.header-security{
+    display: flex;
+    margin-right: 20rem;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #333;
+}
+
+.header-security div img{
+    border-left: 1px solid #333;
+    padding: 10px;
+}
+
+.header-security img{
+    width: 25px;
+    height: 25px;
+}
+
+/* ! LOGIN */
+
+.box-container{
+    margin: 2rem;
+}
+
+.box-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.box{
+    width: 500px;
+    height: 920px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.box-sign{
+    margin: 35px;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #333;
+}
+
+.sign-button{
+    padding: 10px 0px 0px 0px;
+}
+
+.form-sign input{
+    width: 420px;
+    height: 35px;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-sign select{
+    width: 435px;
+    height: 40px;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-sign-password input{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password-standard ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .password-standard li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 2px;
+  }
+  
+
+.checkbox-terms{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-terms h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #aaa9a9;
+    padding-left: 7px;
+}
+
+.checkbox-terms h3 a{
+    color: #175ea8;
+}
+
+.sign-button button{
+    width: 425px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: #175ea8;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.text-sign{
+    width: 500px;
+    height: 750px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.text-sign h1{
+    max-width: 420px;
+    font-size: 21px;
+}
+
+.text-sign p{
+    max-width: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.text-rodape{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
