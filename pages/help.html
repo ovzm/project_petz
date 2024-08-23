@@ -33,10 +33,10 @@
                 </div>
             </div> 
             <div class="divCadastro">  <!-- ! DIV buttons-->   
-                <a href="pages/login.html">
+                <a href="../pages/login.html">
                     <button class="buttonCadastro">Entrar</button>
                 </a>   
-                <a href="pages/sign.html">
+                <a href="../pages/sign.html">
                     <button class="buttonCadastro">Cadastre-se</button>                         
                 </a>
             </div>        
@@ -129,26 +129,26 @@
         
     <!-- ! SECTION SERVICE -->
     <section>
-        <div class="container-service">
-            <div>
+        <div class="container">
+            <div class="container-service">
                 <h1>Ainda não encontrou o que procura?</h1>
                 <div class="button-service">
                     <a href="">
                         <button>
-                            <img src="" alt="">
-                            <h1>E-mail</h1>
+                            <img src="../assets/icons-logos/icon_email.png" alt="">
+                            <h3>E-mail</h3>
                         </button>
                     </a>
                     <a href="">
                         <button>
-                            <img src="" alt="">
-                            <H1>Chat</H1>
+                            <img src="../assets/icons-logos/icon_chat.png" alt="">
+                            <H3>Chat</H3>
                         </button>
                     </a>
                 </div>
             </div>      
             <div class="information-service">
-                <h1>Horárop de Atendimento Alô Petz</h1>
+                <h1>Horário de Atendimento Alô Petz</h1>
                 <h2>Telefone: (11) 3434-6980</h2>
                 <h2>De 2º a 6º das 8h à 21h, sábados das 8h às 18h e aos domingos e feriados das 9h às 16h</h2>
             </div>
@@ -167,6 +167,7 @@
             </div>
             <div class="input-pet">
                 <select name="input-pet" id="input-pet">
+                    <option value="" disabled selected>Seu pet</option>
                     <option value="">Cachorro</option>
                     <option value="">Gato</option>
                     <option value="">Pássaro</option>
@@ -321,6 +322,13 @@
             }
         });
     </script>
+
+    <!-- ! Estilo para esconder a opção do placeholder da lista de opções -->
+    <style>
+        select option[disabled] {
+          display: none; 
+        }
+    </style>
 
 </body>
 </html>

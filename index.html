@@ -526,6 +526,7 @@
             </div>
             <div class="input-pet">
                 <select name="input-pet" id="input-pet">
+                    <option value="" disabled selected>Seu pet</option>
                     <option value="">Cachorro</option>
                     <option value="">Gato</option>
                     <option value="">Pássaro</option>
@@ -684,6 +685,13 @@
             }
         });
         </script>
+
+    <!-- ! Estilo para esconder a opção do placeholder da lista de opções -->
+    <style>
+        select option[disabled] {
+          display: none; 
+        }
+    </style>
 
     </body>
 </html>
