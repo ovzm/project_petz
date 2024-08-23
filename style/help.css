@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f4f4f4;
 }
 
 *{
@@ -8,6 +8,13 @@ body{
 
 h1, h2, h3, p{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 .header{
@@ -123,6 +130,8 @@ h1, h2, h3, p{
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .navbar ul {
@@ -154,21 +163,104 @@ h1, h2, h3, p{
 
 /* ! CARDS HELP */
 
+.help-container-cards{
+    display: flex;
+    justify-content: center;
+}
+
 .help-cards{
-    width: 450px;
-    height: 100px;
-    background-color: #175ea8;
+    width: 360px;
+    height: 70px;
+    background-color: white;
     margin: 10px;
     display: flex;
+    border: 1px solid #e2dfdf;
+    border-radius: 5px;
+    align-items: center;
+    padding:15px;
+}
+
+.help-container{
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.help-container h1{
+    font-size: 27px;
+    margin: 1rem;
 }
 
 .help-cards img{
-    width: 70px;
-    height:70px;
+    width: 50px;
+    height:50px;
+    margin-right: 1rem;
 }
 
 .help-cards h1{
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
+    color: black;
+    padding: 2px;
+}
+
+.help-cards p{
+    font-size: 14px;
+    color: black;
+    padding: 2px;
+}
+
+.help-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.help-input input{
+    width: 1100px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #e2dfdf;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ! SERVICE */
+
+.container-service{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-service button{
+    width: 100px;
+    height: 40px;
+}
+
+/*.button-service h1{
+    
+}*/
+
+.information-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-service h1,
+.information-service h1{
+    font-size: 25px;
+}
+
+.container-service h2{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* ! PROMOTION */ 
@@ -254,6 +346,7 @@ h1, h2, h3, p{
 
 .container-promotion h2 a{
     text-decoration: none;
+    color: #175ea8;
 }
 
 /* ! MENU | CONTAINER FOOTER */
