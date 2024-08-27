@@ -227,6 +227,10 @@ h1, h2, h3, p{
     cursor: pointer;
 }
 
+.box-feedback h1{
+    font-size: 18px;
+}
+
 .box-feedback a{
     text-decoration: none;
 }
