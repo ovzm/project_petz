@@ -158,16 +158,16 @@ h1, h2, h3, p{
 
 /* ! CONTAINER PACKAGE */
 
-.package-container{
+.serviceScheduling-container{
     max-width: 1240px;
     margin: 3rem auto;
 }
 
-.package-container .back-button{
+.serviceScheduling-container .back-button{
     margin: 4rem 0;
 }
 
-.package-container .back-button a button{
+.serviceScheduling-container .back-button a button{
     background-color: #175ea8;
     color: white;
     width: 80px;
@@ -178,9 +178,9 @@ h1, h2, h3, p{
     cursor: pointer;
 }
 
-.box-package{
+.box-serviceScheduling{
     width: 1200px;
-    height: 450px;
+    height: 420px;
     background-color: white;
     border: 1px solid #e2dfdf;
     padding: 30px;
@@ -188,27 +188,28 @@ h1, h2, h3, p{
     flex-direction: column;
 }
 
-.box-package h1{
-   margin: 1rem 0;
-   font-size: 22px;
-}
+.box-serviceScheduling h1{
+    margin: 1rem 0 2rem 0;
+    font-size: 22px;
+ }
 
-.box-package span{
-    font-family: Arial, Helvetica, sans-serif;
+.box-feedback h1{
     margin: 1rem 0;
+    font-size: 22px;
 }
 
-.box-package ol {
-    margin: 0; 
-    padding-left: 0; 
-    list-style-position: inside;
-}
+.box-serviceScheduling h2{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+ }
 
-.box-package li {
+.box-serviceScheduling span{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 1rem 0;
 }
 
-.package-container a{
+.serviceScheduling-container a{
     color: #358deb;
 }
 

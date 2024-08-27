@@ -158,16 +158,16 @@ h1, h2, h3, p{
 
 /* ! CONTAINER PACKAGE */
 
-.package-container{
+.openingHours-container{
     max-width: 1240px;
     margin: 3rem auto;
 }
 
-.package-container .back-button{
+.openingHours-container .back-button{
     margin: 4rem 0;
 }
 
-.package-container .back-button a button{
+.openingHours-container .back-button a button{
     background-color: #175ea8;
     color: white;
     width: 80px;
@@ -178,7 +178,7 @@ h1, h2, h3, p{
     cursor: pointer;
 }
 
-.box-package{
+.box-openingHours{
     width: 1200px;
     height: 350px;
     background-color: white;
@@ -188,24 +188,25 @@ h1, h2, h3, p{
     flex-direction: column;
 }
 
-.box-package h1{
+.box-openingHours h1{
    margin: 1rem 0;
-   font-size: 20px;
+   font-size: 22px;
 }
 
-.box-package h3{
+.box-openingHours h3{
     padding: 5px 0;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
  }
 
-.box-package span{
+.box-openingHours span{
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem 0 2rem 0;
 }
 
-.package-container a{
+.openingHours-container a{
     color: #358deb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .box-feedback{
