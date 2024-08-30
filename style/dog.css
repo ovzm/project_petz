@@ -119,6 +119,7 @@ body{
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 10px;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .navbar ul {
@@ -211,16 +212,27 @@ body{
     width: auto;
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
+    margin: 0;
 }
 
-.products-filter .title h1{
+.filter-price-line{
+    display: flex;
+}
+
+.products-filter .title h1,
+.filter-price .title h1{
     font-size: 20px;
     padding: 10px 0;
     border-bottom: 1px solid #454545;
 }
 
-.products-filter a{
+.filter-price .filter-price-line h2{
+    font-size: 14px;
+    color: #454545;
+    padding: 0 10px;
+}
+
+.products-filter .categories a{
     text-decoration: none;
     color: #454545;
     padding: 2px 0;
@@ -232,10 +244,11 @@ body{
 
 .cards{
     width: 230px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin: 0 0 1rem 0;
 }
 
 .container-cards .box-cards .cards img{
@@ -250,23 +263,28 @@ body{
     border-radius: 7px;
 } 
 
-.container-cards .teste{
-    width: 180px;
+.container-cards .description{
+    width: 170px;
+    height: auto;
     margin: 15px 0;
 } 
 
 .container-cards h1{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 15px 0;
 } 
 
 .container-cards span{
     font-size: 12px;
+    color: #454545;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-cards h2{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0;
 }
 
 /* ! PROMOTION */ 
