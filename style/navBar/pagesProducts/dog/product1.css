@@ -154,143 +154,50 @@ a{
     transition: border-bottom 0.4s ease-out;
 }
 
+/* ! PRODUCT */
 
-/* ! CONTAINER DOG */
-
-.container-buy{
-    width: 100%;
-    height: auto;
-    margin: 2rem 0;
-}
-
-.container-buy .line-title{
-    max-width: 1200px;
-    margin: 0 auto;
+.product{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1300px;
+    margin: 3rem auto;
 }
 
-.container-buy .line-title h1{
-   font-size: 40px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container-buy .line-title .filter{
+.containerProduct{
     display: flex;
-    padding: 10px;
-    align-items: center;
+    justify-content: space-around;
 }
 
-.container-buy .line-title .filter h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #454545;
+.productImg{
+    width: 600px;
 }
 
-.container-buy .line-title .filter select{
-    width: 150px;
-    padding: 10px;
+.containerProduct .productImg img{
+    width: 550px;
+}
+
+.description{
+    width: 700px;
+}
+
+.description .clubz{
+    background-color: #EFFBFF;
+    width: 550px;
+    height: 200px;
     border-radius: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin: 10px;
+    margin: 1rem 0;
 }
 
-/* * CARDS */
-
-.container-cards{
-    max-width: 1200px;
-    margin: 2rem auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.products-filter{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.products-filter .categories{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-.filter-price-line{
-    display: flex;
-}
-
-.products-filter .title h1,
-.filter-price .title h1{
-    font-size: 20px;
-    padding: 10px 0;
-    border-bottom: 1px solid #454545;
-}
-
-.filter-price .filter-price-line h2{
-    font-size: 14px;
-    color: #454545;
-    padding: 0 10px;
-}
-
-.products-filter .categories a{
-    text-decoration: none;
-    color: #454545;
-    padding: 2px 0;
-}
-
-.box-cards{
-    display: flex;
-} 
-
-.cards{
-    width: 230px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0 1rem 0;
-}
-
-.container-cards .box-cards .cards img{
-    width: 150px;
-} 
-
-.container-cards .box-cards .cards .cards-img{
-    width: 170px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid #ccc;
-    border-radius: 7px;
-} 
-
-.container-cards .description{
-    width: 170px;
-    height: auto;
-    margin: 15px 0;
-} 
-
-.container-cards h1{
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 0 15px 0;
-} 
-
-.container-cards span{
-    font-size: 12px;
-    color: #454545;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-cards h2{
-    font-size: 18px;
+.containerProduct .buttonBag button{
+    width: 550px;
+    height: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px 0;
+    color: white;
+    background-color: #175ea8;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
 }
+
 
 /* ! PROMOTION */ 
 
