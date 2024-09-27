@@ -215,7 +215,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 1rem 0;
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .avaliation img{
@@ -234,14 +236,16 @@ a{
     margin: 0;
 }
 
-.price{
+.smallContainer .price{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 15px;
 }
 
 .price h1{
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .price .heartImg{
