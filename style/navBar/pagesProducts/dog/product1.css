@@ -181,21 +181,11 @@ a{
 
 .description .clubz{
     background-color: #EFFBFF;
-    width: 550px;
-    height: 200px;
+    width: 520px;
+    height: 130px;
     border-radius: 7px;
     margin: 1rem 0;
-}
-
-.containerProduct .buttonBag button{
-    width: 550px;
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    background-color: #175ea8;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
+    padding: 15px;
 }
 
 .description h1{
@@ -260,6 +250,65 @@ a{
 
 .price .heartImg img{
     width: 22px;
+}
+
+.clubz {
+    display: flex;
+    flex-direction: column;
+}
+
+.clubz .clubzTitle{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+.clubz .clubzTitle h1{
+    font-size: 20px;
+    color: #175EA8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 10px 0 0;
+}
+
+.clubz .clubzTitle img{
+    width: 15px;
+    height: 15px;
+}
+
+.clubzList {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.clubzList-promo {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.clubzList h2{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.clubzList img{
+    width: 20px;
+    padding: 0 4px 0 0;
+}
+
+.containerProduct .buttonBag button{
+    width: 550px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #175ea8;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 0.5rem 0;
 }
 
 /* ! PROMOTION */ 
