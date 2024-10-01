@@ -339,6 +339,94 @@ a{
     color: #717171;
 }
 
+/* ! TABLE */
+
+.tableContainer{
+    display: flex;
+    max-width: 1300px;
+    margin: 1rem auto 0 auto;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.tableTitle{
+    display: flex;
+    align-items: flex-start;
+}
+
+.tableTitle h2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #454545 ;
+}
+
+.table table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.table th, td {
+    padding: 5px 25px;
+    text-align: left;
+    border: none;
+}
+
+.table th {
+    background-color: #f9f9f9;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.table td {
+    background-color: #f9f9f9;
+    font-weight: normal;
+    color: #666;
+}
+
+.table tr:nth-child(even) td {
+    background-color: #fff;
+}
+
+.table tr:nth-child(even) th {
+    background-color: #fff;
+}
+
+.tableLevels {
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+.tableLevels h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #454545 ;
+}
+
+.tableLevels p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #717171;
+    padding: 10px 0;
+}
+
+.tableComposition {
+    padding: 0 0 20px 0;
+}
+
+.tableComposition h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #454545 ;
+}
+
+.tableComposition p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #717171;
+    padding: 10px 0;
+}
+
 /* ! PETZ TEACHES */
 
 .petzTeaches{
@@ -378,15 +466,17 @@ a{
 
 .moreContainer{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: #f5f5f5;
     margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
 }
 
 .more{
     display: flex;
     flex-direction: column;
-    max-width: 1100px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -401,7 +491,7 @@ a{
 }
 
 .more .more-p p{
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: #717171;
     padding: 5px 0;
