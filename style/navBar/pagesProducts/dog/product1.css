@@ -370,6 +370,8 @@ a{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #717171;
+    margin: 0;
+    padding: 2px;
 }
 
 /* ! MORE */
