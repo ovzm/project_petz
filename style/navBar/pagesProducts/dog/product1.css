@@ -188,12 +188,28 @@ a{
     padding: 15px;
 }
 
+.subDescription{
+    display: flex;
+}
+
+.subDescription .subDescription-Code{
+    display: flex;
+    padding-right: 10px;
+    border-right: 2px solid #c1c1c1;
+}
+
+.subDescription-Link{
+    display: flex;
+    padding-left: 10px;
+}
+
 .description h1{
     font-size: 27px;    
     margin: 5px 0;
+    font-weight: normal;
 }
 
-.description h1,span{
+.description .subDescription h1,span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -210,11 +226,16 @@ a{
     border-bottom: 1px solid #c1c1c1;
 }
 
-.avaliation img{
+.avaliation-img{
+    border-right: 2px solid green;
+    padding-right: 10px;
+}
+
+.avaliation .avaliation-img img{
     width: 20px;
 }
 
-.avaliation span{
+.avaliation .avaliation-span span{
     color: green;
     margin: 0 0 0 0.5rem;
 }
@@ -238,7 +259,7 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.price .heartImg{
+.price .heartImg button{
     width: 40px;
     height: 40px;
     display: flex;
@@ -246,6 +267,9 @@ a{
     align-items: center;
     border-radius: 50px;
     box-shadow:  0px 3px 8px #0000001F;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 .price .heartImg img{
